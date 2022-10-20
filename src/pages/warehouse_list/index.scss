@@ -1,0 +1,26 @@
+.MuiContainer-root {
+  padding: 5% 0;
+  .head-area {
+    text-align: center;
+    margin-bottom: 24px;
+  }
+  .list-box {
+    width: 50%;
+    margin: 24px auto;
+    .MuiDataGrid-root {
+      border-radius: 16px;
+      .MuiDataGrid-main {
+        border-radius: 16px;
+        .MuiDataGrid-columnHeaders {
+          background-color: #d9b0ff;
+        }
+        .itemrow {
+          cursor: pointer;
+          &:hover {
+            background-color: #eee;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,35 @@
+.MuiContainer-root {
+  padding: 5% 0;
+  .head-area {
+    text-align: center;
+    margin-bottom: 24px;
+  }
+  .box-info {
+    padding: 24px;
+    margin: 0 auto;
+    width: 50%;
+    min-height: 100px;
+    border-radius: 16px;
+
+    .MuiList-root {
+      width: 100%;
+      .row-item {
+        gap: 16px;
+        &:hover {
+          cursor: pointer;
+          background-color: #eee;
+        }
+        .label {
+          width: 50%;
+          color: #aaa;
+          text-align: right;
+        }
+        .value {
+          width: 50%;
+          font-weight: bold;
+          text-align: left;
+        }
+      }
+    }
+  }
+}
