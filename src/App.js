@@ -2,11 +2,7 @@ import RoutesComponent from 'components/routes';
 import './global.scss';
 
 function App() {
-  return (
-    <div className="App">
-      <RoutesComponent />
-    </div>
-  );
+  return <RoutesComponent />;
 }
 
 export default App;
